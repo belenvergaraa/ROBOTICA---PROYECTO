@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOMBA DE AGUA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>BOMBA DE AGUA</h1>
+        <p>Un proyecto innovador para un Mini Bebedero con bomba de agua.</p>
+    </header>
+
+    <section id="creadores">
+        <h2>Creadores del Proyecto</h2>
+        <ul>
+            <li><strong>Belen Vergara</strong> | <a href="mailto:abvergara@escuelasproa.edu.ar">abvergara@escuelasproa.edu.ar</a> | <a href="https://github.com/belenvergaraa" target="_blank">GitHub</a></li>
+            <li><strong>Giuliana Spaccesi</strong> | <a href="mailto:gmspaccesi@escuelasproa.edu.ar">gmspaccesi@escuelasproa.edu.ar</a> | <a href="https://github.com/giuuspaccesi" target="_blank">GitHub</a></li>
+            <li><strong>Cristhian Tissera</strong> | <a href="mailto:ctissera@escuelasproa.edu.ar">ctissera@escuelasproa.edu.ar</a> | <a href="https://github.com/ctissera629" target="_blank">GitHub</a></li>
+            <li><strong>Francisco Nuñez</strong> | <a href="mailto:rfnunez@escuelasproa.edu.ar">rfnunez@escuelasproa.edu.ar</a> | <a href="https://github.com/richRF07/personal" target="_blank">GitHub</a></li>
+            <li><strong>Huilen Ceballos</strong> | <a href="mailto:hceballocenturion@escuelasproa.edu.ar">hceballocenturion@escuelasproa.edu.ar</a> | <a href="https://github.com" target="_blank">GitHub</a></li>
+        </ul>
+    </section>
+
+    <section id="proyecto">
+        <h2>Descripción del Proyecto</h2>
+        <p>Con este Proyecto tenemos pensado crear un <strong>Mini Bebedero</strong>, pero a este le vamos a agregar la <strong>bomba de agua</strong>, con el fin de generar algo fuera de lo común.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 BOMBA DE AGUA. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,28 @@
+// Definir los pines
+const int pinPulsador = 2;  // Pin donde está conectado el pulsador
+const int pinBomba = 3;     // Pin donde está conectado el transistor que controla la bomba
+
+void setup() {
+  // Configurar el pin del pulsador como entrada con pull-up
+  pinMode(pinPulsador, INPUT_PULLUP);
+  
+  // Configurar el pin del transistor como salida
+  pinMode(pinBomba, OUTPUT);
+  
+  // Apagar la bomba al inicio
+  digitalWrite(pinBomba, LOW);
+}
+
+void loop() {
+  // Leer el estado del pulsador
+  int estadoPulsador = digitalRead(pinPulsador);
+  
+  // Si el pulsador está presionado (LOW debido al pull-up)
+  if (estadoPulsador == LOW) {
+    // Encender la bomba
+    digitalWrite(pinBomba, HIGH);
+  } else {
+    // Apagar la bomba
+    digitalWrite(pinBomba, LOW);
+  }
+}
